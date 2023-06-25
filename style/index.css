@@ -1,0 +1,108 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(hsl(212, 18%, 18%),hsl(213, 18%, 10%));
+    border-radius: 30px;
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.start > img {
+    width: 14px;
+    background: hsl(218, 9%, 23%);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.end {
+    visibility: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end > img {
+    width: 120px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.score {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:hsl(218, 9%, 23%);
+    color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.active {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+h2 {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    font-size: 13px;
+    color: hsl(216, 12%, 54%);
+    line-height: 20px;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%); 
+    color: hsl(25, 97%, 53%);
+}
+
+.final-score {
+    display: flex;
+    background-color: hsl(212, 18%, 18%);
+    color: hsl(25, 97%, 53%);
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 8px 20px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+.score-number {
+    color: hsl(25, 97%, 53%);
+    font-size: 13px;
+    margin: 0px 3px;
+}

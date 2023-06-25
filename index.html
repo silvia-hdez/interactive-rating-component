@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -17,33 +21,52 @@
 <body>
 
   <!-- Rating state start -->
+  <div class="container start">
+    <img src="./images/icon-star.svg"/>
+    <h2>
+      How did we do?
+    </h2>
 
-  How did we do?
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+  
+    <div class="rating">
+      <div class="score">1</div>
+      <div class="score">2</div>
+      <div class="score">3</div>
+      <div class="score">4</div>
+      <div class="score">5</div>
+    </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+  
+    <button>
+      SUBMIT
+    </button>
+  </div>
 
-  1 2 3 4 5
-
-  Submit
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+  <div class="container end">
+    <img src="./images/illustration-thank-you.svg"/>
+    <div class="final-score">
+      You selected <p class="score-number"> 1 </p> out of 5
+    </div>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+    <h2>
+      Thank you!
+    </h2>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <p style="text-align: center;">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don't hesitate to get in touch!
+    </p>
   </div>
+
+
+<script src="./js/index.js"></script>
 </body>
 </html>
