@@ -28,8 +28,8 @@ Users should be able to:
 
 ![](./design/screenshots/rateSelected.png)
 ![](./design/screenshots/submitRate.png)
-![](./design/screenshots/rateSelected.png)
 ![](./design/screenshots/thankYou.png)
+![](./design/screenshots/mobileVersion.png)
 
 
 ### Links
